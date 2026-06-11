@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: hello-world
+      - image: gcr.io/google-samples/kubernetes-bootcamp:v1
         name: guestbook-ui
         ports:
-        - containerPort: 80
+        - containerPort: 8080
